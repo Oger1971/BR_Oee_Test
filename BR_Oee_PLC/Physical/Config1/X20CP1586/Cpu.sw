@@ -4,5 +4,13 @@
   <TaskClass Name="Cyclic#1" />
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
-  <TaskClass Name="Cyclic#4" />
+  <TaskClass Name="Cyclic#4">
+    <Task Name="MappOee" Source="Software.MappOee.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+  </TaskClass>
+  <Libraries>
+    <LibraryObject Name="MpOee" Source="Libraries.MpOee.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="MpBase" Source="Libraries.MpBase.lby" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="sys_lib" Source="Libraries.sys_lib.lby" Memory="UserROM" Language="binary" Debugging="true" />
+    <LibraryObject Name="runtime" Source="Libraries.runtime.lby" Memory="UserROM" Language="binary" Debugging="true" />
+  </Libraries>
 </SwConfiguration>

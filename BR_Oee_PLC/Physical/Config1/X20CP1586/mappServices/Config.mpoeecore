@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<Configuration>
+  <Element ID="gOeeCore" Type="mpoeecore">
+    <Group ID="Oee">
+      <Group ID="Shifts">
+        <Group ID="[0]">
+          <Property ID="Name" Value="Morning" />
+          <Group ID="TotalTime">
+            <Property ID="Start" Value="21600000" />
+            <Property ID="End" Value="50400000" />
+          </Group>
+          <Group ID="ScheduledDowntime">
+            <Group ID="[0]">
+              <Property ID="Reason" Value="Lunch" />
+              <Property ID="Start" Value="39600000" />
+              <Property ID="End" Value="41400000" />
+            </Group>
+          </Group>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Name" Value="Afternoon" />
+          <Group ID="TotalTime">
+            <Property ID="Start" Value="50400000" />
+            <Property ID="End" Value="79200000" />
+          </Group>
+          <Group ID="ScheduledDowntime">
+            <Group ID="[0]">
+              <Property ID="Reason" Value="Dinner" />
+              <Property ID="Start" Value="64800000" />
+              <Property ID="End" Value="66600000" />
+            </Group>
+          </Group>
+        </Group>
+      </Group>
+    </Group>
+    <Selector ID="Alarms" Value="MpAlarmX" />
+  </Element>
+</Configuration>

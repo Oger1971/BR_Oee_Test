@@ -1,0 +1,5 @@
+VAR
+	MpOeeCore_0 : MpOeeCore;
+	MpOeeCorePar : MpOeeCoreParType;
+	DownTimeReason : STRING[50];
+END_VAR
